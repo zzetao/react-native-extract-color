@@ -7,13 +7,13 @@ export default {
     if (Platform.OS === 'android') {
       return Promise.reject('[react-native-extract-color] Does not support android!');
     }
-  
-    if (!imagePath) {
-      return Promise.reject('imagePath is not a valid url!');
+    
+    if (!imagePath || typeof imagePath !== 'string') {
+      return Promise.reject('[react-native-extract-color] imagePath is not a valid url!');
     }
   
     if (imagePath.indexOf('http') !== -1) {
-      return Promise.reject('imagePath is not a valid local image path!')
+      return Promise.reject('[react-native-extract-color] imagePath is not a valid local image path!')
     }
   
     return new Promise((resolve, reject) => {
