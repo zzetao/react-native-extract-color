@@ -13,6 +13,14 @@
   ],
   "author": "zzetao",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzetao/react-native-extract-color/issues"
+  },
+  "homepage": "https://github.com/zzetao/react-native-extract-color#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzetao/react-native-extract-color.git"
+  },
   "peerDependencies": {
     "react-native": "^0.41.2"
   }

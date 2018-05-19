@@ -1,5 +1,4 @@
-
-# react-native-extract-color
+﻿# react-native-extract-color [![npm](https://img.shields.io/npm/v/react-native-extract-color.svg)](https://www.npmjs.com/package/react-native-extract-color)
 > Extract colors from an image
 
 <p align="center">
